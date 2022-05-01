@@ -2,42 +2,42 @@ export const state=()=>({
     users:[
         {
             name :'تجاری',
-            id :'15',
+            id :'12',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "first",
             number:"1.232 ملک"
         } ,
         {
             name :'مسکونی',
-            id :'15',
+            id :'13',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "second",
             number:"1.232 ملک"
         } ,
         {
             name :'ویلایی',
-            id :'15',
+            id :'14',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             number:"1.232 ملک"
         } ,
         {
             name :'ویلایی',
-            id :'15',
+            id :'18',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             number:"1.232 ملک"
         } ,
         {
             name :'ویلایی',
-            id :'15',
+            id :'10',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             number:"1.232 ملک"
         } ,
         {
             name :'ویلایی',
-            id :'15',
+            id :'182',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             number:"1.232 ملک"
@@ -48,7 +48,7 @@ export const state=()=>({
     news:[
         {
             name :'تجاری',
-            id :'15',
+            id :'11',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "first",
             number:"1.232 ملک"
@@ -57,7 +57,7 @@ export const state=()=>({
         } ,
         {
             name :'مسکونی',
-            id :'15',
+            id :'12',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "second",
             number:"1.232 ملک"
@@ -66,7 +66,7 @@ export const state=()=>({
         } ,
         {
             name :'ویلایی',
-            id :'15',
+            id :'13',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             number:"1.232 ملک"
@@ -79,7 +79,7 @@ export const state=()=>({
     aboutSlider:[
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'14',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "first",
             text:" مینا بهرامی"
@@ -88,7 +88,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'17',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "second",
             text:"مشاور جذب"
@@ -105,7 +105,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'18',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             text:"مشاور جذب"
@@ -113,7 +113,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'18',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             text:"مشاور جذب"
@@ -121,7 +121,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'20',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             text:"مشاور جذب"
@@ -132,7 +132,7 @@ export const state=()=>({
     weblog:[
         {
             
-            id :'15',
+            id :'10',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "first",
             message:"  20",
@@ -148,7 +148,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'11',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "second",
             message:"  20",
@@ -163,7 +163,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'12',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             message:"  20",
@@ -178,7 +178,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'13',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             message:"  20",
@@ -191,7 +191,7 @@ export const state=()=>({
         } ,
         {
             name :'مینا بهرامی',
-            id :'15',
+            id :'14',
             img : "http://androthemes.com/themes/react/acres/assets/img/about/1.jpg",
             kind : "third",
             message:"  20",

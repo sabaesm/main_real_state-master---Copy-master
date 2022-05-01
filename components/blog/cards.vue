@@ -43,7 +43,7 @@
                     {{ data.date }}
                   </p>
                 </div>
-                <row class="d-flex flex-row count__icon mb-4">
+                <div class="d-flex flex-row count__icon mb-4">
                   <div class="text_counter px-2">
                     <p class="message__number pt-1">{{ data.message }}</p>
                     <span class="message__icon">
@@ -109,7 +109,7 @@
                       </svg>
                     </span>
                   </div>
-                </row>
+                </div>
               </div>
             </li>
           </v-col>
@@ -130,7 +130,7 @@
                     <p class="">{{ weblog.experience }}</p>
                   </span>
                 </div>
-                <row class="contact_way">
+                <div class="contact_way">
                   <svg
                     class="ml-2"
                     viewBox="0 0 44 44"
@@ -182,7 +182,7 @@
                       fill="#0DA049"
                     />
                   </svg>
-                </row>
+                </div>
               </div>
             </li>
           </v-col>
@@ -212,7 +212,7 @@
             />
           </svg>
         </li>
-        <li v-on="clicked"><span class="pagination__number">2</span></li>
+        <li ><span class="pagination__number">2</span></li>
         <li>
           <span class="pagination__number">1</span>
         </li>

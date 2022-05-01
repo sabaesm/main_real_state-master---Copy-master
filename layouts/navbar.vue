@@ -1,6 +1,6 @@
 <template>
 <div class="larg_container">
-<v-cols cols="12"  class="pa-0"> 
+<v-col cols="12"  class="pa-0"> 
   <div class="main_nav pa-0">
     <v-col cols="6" class="right-bar ma-0 pa-0"> 
     <div class="logo">
@@ -130,7 +130,7 @@
       <span class="search_text px-2">جست وجو کد ملکی</span>
     </a>
     </div>
-    </v-cols>
+    </v-col>
     <div>
     </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="pb-5 mb-5 mainSection_weblog__cards">
-    <row :key="luxury_home.id" v-for="luxury_home in luxury_home">
+    <div :key="luxury_home.id" v-for="luxury_home in luxury_home">
       <v-col cols="12 " class="p-0 m-0">
         <div class="slider">
           <div class="overlay p-0 m-0"></div>
@@ -35,7 +35,7 @@
           </v-col>
         </div>
       </v-col>
-    </row>
+    </div>
   </div>
 </template>
 <script>

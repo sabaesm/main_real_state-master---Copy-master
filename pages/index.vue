@@ -5,7 +5,6 @@
       <value></value>
       <grouping></grouping>
       <new1></new1>
-   
       <banner v-bind="getContactUsBanner" :data="getContactUsBanner"></banner>
       <new_vila></new_vila>
       <offer></offer>

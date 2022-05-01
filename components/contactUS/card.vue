@@ -2,11 +2,11 @@
   <div class="medium_container contactUs ">
 
     <v-col cols="12 pa-0 ma-0" class="mainCard">
-      <row class="d-flex flex-column flex-md-row">
+      <div class="d-flex flex-column flex-md-row">
         <v-col cols="12" md="7">
           <v-form ref="form" v-model="valid" lazy-validation>
             <v-col class=" ma-0 pa-0  12">
-              <row class=" ma-0 pa-0  registration d-flex flex-wrap">
+              <div class=" ma-0 pa-0  registration d-flex flex-wrap">
                 <v-col cols="12 " md="6">
                   <v-text-field
                     v-model="name"
@@ -51,40 +51,35 @@
                     required
                   ></v-select>
                 </v-col>
-              </row>
+              </div>
             </v-col>
             <v-row class="ma-0 pa-0 check_box">
             <v-col cols="4" md="2">
              <v-checkbox
-              v-model="ex4"
               label="نوساز"
               hide-details
             ></v-checkbox>
              </v-col>
                  <v-col cols="4" md="2">
              <v-checkbox
-              v-model="ex4"
               label="فلت"
               hide-details
             ></v-checkbox>
              </v-col>
                  <v-col cols="4" md="2">
              <v-checkbox
-              v-model="ex4"
               label="دوبلکس"
               hide-details
             ></v-checkbox>
              </v-col>
                  <v-col cols="4" md="2">
              <v-checkbox
-              v-model="ex4"
               label="تریبلکس"
               hide-details
             ></v-checkbox>
              </v-col>
                  <v-col cols="4" md="2">
              <v-checkbox
-              v-model="ex4"
               label="نوساز"
               hide-details
             ></v-checkbox>
@@ -110,7 +105,7 @@
         <v-col cols="5" class="picrur_person d-none d-md-flex">
           <img class="person_img" src="https://picsum.photos/200" />
         </v-col>
-      </row>
+      </div>
     </v-col>
   </div>
 </template>

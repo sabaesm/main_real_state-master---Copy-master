@@ -225,7 +225,7 @@
                     <p class=" pa-0 ma-0">{{ salecard.experience }}</p>
                   </span>
                 </div>
-                <row class="sale_contact_way pa-0 ma-0">
+                <div class="sale_contact_way pa-0 ma-0">
                   <svg
                     class="ml-2"
                     viewBox="0 0 44 44"
@@ -277,7 +277,7 @@
                       fill="#0DA049"
                     />
                   </svg>
-                </row>
+                </div>
               </div>
             </div>
           </li>

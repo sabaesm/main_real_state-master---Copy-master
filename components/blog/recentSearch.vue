@@ -2,7 +2,7 @@
 <div>
     <ul   v-for="recent in recent" :key="recent.id"  class="my-1">
 <li>
-<row class="d-flex justify-center align-center cards_row_weblog py-2 pe-2 ">
+<div class="d-flex justify-center align-center cards_row_weblog py-2 pe-2 ">
 <v-col cols="5" class="pa-0 home_img  px-1">
     <img class="" :src="recent.img" />
     </v-col>
@@ -25,7 +25,7 @@
 </span>
 {{recent.date}}</div>
 </v-col>
-</row>
+</div>
 </li>
 </ul>
 </div>
