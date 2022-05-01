@@ -33,7 +33,7 @@
             </svg>
           </a>
           <ul class="gallery">
-            <li class="gallery_img" v-for="(items, index) in detaileHeader" :key="items">
+            <li class="gallery_img" v-for="(items, index) in detaileHeader" :key="items.id">
               <div v-if="index == 0">
                 <div class="overlay"></div>
                 <div class="text">{{ items.text }}</div>

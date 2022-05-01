@@ -1,6 +1,6 @@
 <template>
   <div class="mainCard__weblog d-flex flex-column mb-5">
-    <ul v-for="data in data" :key="data" class="grouping_card pa-0 mb-5">
+    <ul v-for="data in data" :key="data.id" class="grouping_card pa-0 mb-5">
     <nuxt-link :to="'/blog/'+ data.id ">
      <v-col cols="12 " class="pa-3 ma-0">
         <v-row class="main__row d-flex pa-0 ma-0">

@@ -3,7 +3,7 @@
     <h4>دسته بندی</h4>
     <h2>دسته بندی ملک ها</h2>
     <div class="cards">
-      <ul v-for="user in users" :key="user" class="grouping_card">
+      <ul v-for="user in users" :key="user.id" class="grouping_card">
         <li class="main pa-0">
           <img :src="user.img" />
             <div class="card_icons" v-if="user.kind === 'first'">

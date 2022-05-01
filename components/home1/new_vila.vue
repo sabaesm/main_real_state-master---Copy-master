@@ -62,7 +62,7 @@
           <ul
             class="sale__cards d-flex flex-row swiper-slide  mx-0"
             v-for="salecard in salecard"
-            :key="salecard"
+            :key="salecard.id"
           >
             <li class="ma-0 pa-0 sale__card__items">
               <div class="top_card">

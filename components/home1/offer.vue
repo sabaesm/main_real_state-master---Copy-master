@@ -89,7 +89,7 @@
           <ul
             class="sale__cards d-flex flex-row swiper-slide  mx-5 my-5"
             v-for="salecard in salecard"
-            :key="salecard"
+            :key="salecard.id"
           > 
             <li class="ma-0 pa-2 sale__card__items d-flex flex-row" >
             <v-col cols="5  pa-0 ma-0">

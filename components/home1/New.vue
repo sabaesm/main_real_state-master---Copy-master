@@ -71,7 +71,7 @@
           <ul
             class="sale__cards d-flex flex-row align-center justify-center swiper-slide ma-0"
             v-for="salecard in salecard"
-            :key="salecard"
+            :key="salecard.id"
           >
             <li class="ma-0 pa-3 sale__card__items">
               <div class="top_card">

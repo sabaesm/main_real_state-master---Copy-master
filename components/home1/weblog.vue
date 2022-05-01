@@ -3,7 +3,7 @@
 <div class="d-flex flex-column align-center mt-5 pt-5 releted_post">
  <h4 class="my-5">پست های مرتبط</h4>
 <div class="d-flex flex-column flex-lg-row  ">
-<ul v-for="  weblog in weblog" :key="weblog" class="ma-2">
+<ul v-for="  weblog in weblog" :key="weblog.id" class="ma-2">
       <v-col   cols="12 " class="pa-3 ma-0 grouping_card">
         <v-row class="main__row  pa-0 ma-0">
           <v-col cols="12" class="ma-0 pa-0">
