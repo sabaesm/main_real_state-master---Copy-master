@@ -12,20 +12,18 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     script: [
-      {
-        src: '~/assets/js/global.js',
-      },
+      
     ],
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/css/global.css',
+    './assets/css/global.css',
     'swiper/css/swiper.css'
   ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [ 
-    '~/assets/js/global.js',
-    "~/plugins/vuetify.js",
+
+    "./plugins/vuetify.js",
       { src: './plugins/vue-awesome-swiper', mode: 'client', },
   ],
   // Auto import components: https://go.nuxtjs.dev/config-components

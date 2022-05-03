@@ -414,6 +414,7 @@ export default {
 };
 </script>
 <style scoped>
+
 .slider__top_section h5 {
   color: #121939;
   font-size: 30px;

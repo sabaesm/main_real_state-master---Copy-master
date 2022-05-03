@@ -161,7 +161,7 @@ export default {
   },
 };
 </script>
-<style>
+<style >
 .contact_class .v-slide-group__content {
   display: flex;
   justify-content: center;

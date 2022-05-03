@@ -623,7 +623,7 @@ export default {
   },
 };
 </script>
-<style scopde>
+<style scoped>
 .theme--light.v-expansion-panels .v-expansion-panel {
   background-color: #f8f8f8 !important;
   margin: 10px 0;

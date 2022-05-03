@@ -1,72 +1,94 @@
 <template>
   <div class="larg_container">
     <div class="new-main-section">
-    <div class="top_section">
-    <div>
-       <h4>جدید ترین ها</h4>
-      <h2>دسته بندی ملک ها</h2>
-    </div>
- 
-      <div class="arrows ">
-      <div class="next-button d-flex align-center justify-center" slot="button-next">
-          <svg
-            width="20"
-            height="14"
-            viewBox="0 0 20 14"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.7144 12L18.4286 7L12.7144 2"
-              stroke="white"
-              stroke-width="2.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M2 7H18.4286"
-              stroke="white"
-              stroke-width="2.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+      <div class="top_section">
+        <div>
+          <h4>خونتو پیدا کن</h4>
+          <h2>دسته بندی ملک ها</h2>
         </div>
-        <div class="prev-button d-flex align-center justify-center" slot="button-prev">
-          <svg
-            width="20"
-            height="14"
-            viewBox="0 0 20 14"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7.71436 12L2.00007 7L7.71436 2"
-              stroke="white"
-              stroke-width="2.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M18.4287 7H2.00014"
-              stroke="white"
-              stroke-width="2.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+        <div class="arrows">
+          <div class="see_more d-flex align-center  ">
+            <span class="pl-5">مشاهده همه</span>
+            <svg
+              width="26"
+              height="26"
+              viewBox="0 0 26 26"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.84463 2.16675H5.7863C3.4138 2.16675 2.16797 3.41258 2.16797 5.77425V7.83258C2.16797 10.1942 3.4138 11.4401 5.77547 11.4401H7.8338C10.1955 11.4401 11.4413 10.1942 11.4413 7.83258V5.77425C11.4521 3.41258 10.2063 2.16675 7.84463 2.16675Z"
+                fill="white"
+              />
+              <path
+                d="M20.2244 2.16675H18.1661C15.8044 2.16675 14.5586 3.41258 14.5586 5.77425V7.83258C14.5586 10.1942 15.8044 11.4401 18.1661 11.4401H20.2244C22.5861 11.4401 23.8319 10.1942 23.8319 7.83258V5.77425C23.8319 3.41258 22.5861 2.16675 20.2244 2.16675Z"
+                fill="white"
+              />
+              <path
+                d="M20.2244 14.5491H18.1661C15.8044 14.5491 14.5586 15.7949 14.5586 18.1566V20.2149C14.5586 22.5766 15.8044 23.8224 18.1661 23.8224H20.2244C22.5861 23.8224 23.8319 22.5766 23.8319 20.2149V18.1566C23.8319 15.7949 22.5861 14.5491 20.2244 14.5491Z"
+                fill="white"
+              />
+              <path
+                d="M7.84463 14.5491H5.7863C3.4138 14.5491 2.16797 15.7949 2.16797 18.1566V20.2149C2.16797 22.5874 3.4138 23.8332 5.77547 23.8332H7.8338C10.1955 23.8332 11.4413 22.5874 11.4413 20.2257V18.1674C11.4521 15.7949 10.2063 14.5491 7.84463 14.5491Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+          <div class="next-button d-flex align-center justify-center" slot="button-next">
+            <svg
+              width="20"
+              height="14"
+              viewBox="0 0 20 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.7144 12L18.4286 7L12.7144 2"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M2 7H18.4286"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div class="prev-button d-flex align-center justify-center" slot="button-prev">
+            <svg
+              width="20"
+              height="14"
+              viewBox="0 0 20 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.71436 12L2.00007 7L7.71436 2"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M18.4287 7H2.00014"
+                stroke="white"
+                stroke-width="2.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
         </div>
-        
       </div>
-    </div>
-      <div v-swiper="swiperOption" class="w-5/6 ml-auto relative custom_swiper_container " :loadtheme="false" >
-      
-      
-       
+      <div v-swiper="swiperOption" class="w-5/6 ml-auto relative custom_swiper_container">
         <div class="swiper-wrapper">
           <ul
             class="sale__cards d-flex flex-row align-center justify-center swiper-slide ma-0"
@@ -359,16 +381,13 @@
             </li>
           </ul>
         </div>
-        </div>
-      
-      
+      </div>
     </div>
   </div>
 </template>
 <script>
 import { directive } from "vue-awesome-swiper";
 import { mapState } from "vuex";
-
 export default {
   name: "Slider",
   directives: {
@@ -400,15 +419,23 @@ export default {
           },
           768: {
             slidesPerView: 3,
-            spaceBetween: 10,
+            spaceBetween: 40,
+            freeMode: true,
+            freeModeMomentum: true,
+            mousewheelSensitivity: 0.02,
           },
           640: {
             slidesPerView: 2,
-            spaceBetween: 10,
+            spaceBetween: 40,
+            freeMode: true,
+            freeModeMomentum: true,
+            mousewheelSensitivity: 0.02,
           },
           320: {
-            slidesPerView: 1,
-            spaceBetween: 10,
+            freeMode: true,
+            spaceBetween: 40,
+            freeModeMomentum: true,
+            mousewheelSensitivity: 0.02,
           },
         },
       },
@@ -418,17 +445,16 @@ export default {
 </script>
 
 <style scoped>
-
-
-.new-main-section{
+.new-main-section {
   box-sizing: border-box;
   position: relative;
+  margin-bottom: 60px;
 }
-.top_section{
-display: flex;
-align-items: center;
-align-items:center ;
-margin: 40px 0;
+.top_section {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin: 40px 0;
 }
 h4 {
   color: #519fff;
@@ -436,12 +462,12 @@ h4 {
   font-weight: 200px;
 }
 h2 {
-font-size: 37px;
-font-weight: 800;
-line-height: 61px;
-letter-spacing: -0.035em;
-text-align: right;
-color: #121939!important;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: -0.035em;
+  text-align: right;
+  color: #121939!important;
 }
 p {
   font-weight: 100;
@@ -457,77 +483,7 @@ h2 {
   font-size: 30px;
   font-weight: 500px;
 }
-.see_more {
-  background: #abbdd3;
-  border-radius: 10px;
-  width: 61px;
-  height: 61px;
-}
-.see_more svg {
-  width: 25px;
-  height: 25px;
-}
-.prev-button,
-.next-button {
-  border-radius: 10px;
-  cursor: pointer;
-  position: relative;
-  width: 61px;
-  height: 61px;
-}
-.prev-button {
-  background-color: #519fff!important;
-  width: 50px;
-  height: 50px;
-    transition: all ease-in-out.3s!important;
-}
-.next-button {
-  background-color: #519fff!important;
-  width: 50px;
-  height: 50px;
-    transition: all ease-in-out.3s!important;
-}
-.next-button:hover {
-  background-color: #3370bc!important;
 
-}
-.prev-button:hover {
-  background-color: #3370bc!important;
-
-
-}
-
-.see_more {
-  background: #abbdd3;
-  border-radius: 10px;
-  width: 61px;
-  height: 61px;
-}
-.see_more svg {
-  width: 25px;
-  height: 25px;
-}
-.test {
-  position: relative;
-  margin: 20px;
-}
-.test img {
-  width: 100%;
-  border-radius: 5px;
-  height: 30vh;
-}
-.test div {
-  position: absolute;
-  bottom: 20px;
-  background-color: #fff;
-  width: 80%;
-  padding: 10px;
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -537,40 +493,60 @@ h2 {
   color: #969595;
   font-size: 12px;
 }
-.card_icons {
-  background-color: red;
-  width: 20px;
-}
 .arrows {
   position: absolute;
   z-index: 999;
   display: flex;
   flex-direction: row;
-  width: 15%;
   align-items: center;
   justify-content: space-around;
   direction: ltr;
   left: 0;
+}
+.see_more {
+   background-color: #798595;
+  border-radius: 10px;
+  height: 61px;
+  padding: 20px;
+    margin: 0 5px;
+}
+.see_more svg {
+  width: 25px;
+  height: 25px;
+}
+.see_more span{
+color: #ffff;
+font-size: 17px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: -0.035em;
+text-align: right;
 }
 .prev-button,
 .next-button {
   border-radius: 10px;
   cursor: pointer;
   position: relative;
+  margin: 0 5px;
 }
 
 .prev-button {
   background-color: #519fff;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 }
 .next-button {
-  background-color: #3370bc;
-  width: 50px;
-  height: 50px;
+  background-color: #519fff;
+  width: 60px;
+  height: 60px;
 }
-</style>
-<style scoped>
+.bottom_card{
+  height: 50%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
 .sale__card__items:hover .sale__desctiptipn {
   color: #087cce !important;
 }
@@ -579,31 +555,16 @@ h2 {
 .sale__cards {
   display: flex;
   flex-wrap: wrap;
-height: 490px;
   justify-content: space-between;
+  padding: 30px 0;
 }
 .sale__cards .sale__card__items {
-
   background-color: #fff;
   border-radius: 10px;
-    width:calc(100% -10px);
+  padding: 20px;
+  width: calc(100% -20px);
   box-shadow: 0px 0px 34px -9px rgba(12, 46, 96, 0.25);
-}
-.top_card a {
-  overflow: hidden !important;
-  border-radius: 10px;
-  height: 100% !important;
-  width: 100%;
-  display: block;
-}
-.top_card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all ease-in-out 0.3s !important;
-}
-.top_card:hover img {
-  transform: scale(1.1);
+  height: 490px;
 }
 .top_card {
   position: relative;
@@ -611,8 +572,26 @@ height: 490px;
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
   width: 100%;
-  height: 250px;
+  height: 240px;
 }
+.top_card a {
+  overflow: hidden !important;
+  border-radius: 10px;
+ height: 100%;
+  width: 100%;
+  display: block;
+}
+.top_card img {
+  width: 100%;
+ height: 100%;
+
+  object-fit: cover;
+  transition: all ease-in-out 0.3s !important;
+}
+.top_card:hover img {
+  transform: scale(1.1);
+}
+
 .top_card .topcard__top__section {
   position: absolute;
   left: 0;
@@ -697,12 +676,12 @@ height: 490px;
   font-size: 12px;
 }
 .sale__desctiptipn {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
   line-height: 29px;
   letter-spacing: -0.021em;
   text-align: right;
-  color: #101737;
+  color: #101737!important;
   transition: all ease-in-out 0.3s;
 }
 .home__desctiption {
@@ -792,31 +771,31 @@ height: 490px;
 }
 
 @media screen and (max-width: 960px) {
-.sale__cards {
-  min-width: 400px;
-
-}
-.sale__card__items {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-y: scroll;
-}
-h2,h4{
-text-align: center;
-}
-h4{
-font-family: IRANYekanWeb;
-font-size: 13px;
-font-weight: 700;
-line-height: 22px;
-letter-spacing: -0.035em;
-}
-h2{
-font-family: IRANYekanWeb;
-font-size: 18px;
-font-weight: 800;
-line-height: 30px;
-letter-spacing: -0.035em;
-}
+  .sale__cards {
+    min-width: 400px;
+  }
+  .sale__card__items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+  }
+  h2,
+  h4 {
+    text-align: center;
+  }
+  h4 {
+    font-family: IRANYekanWeb;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.035em;
+  }
+  h2 {
+    font-family: IRANYekanWeb;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.035em;
+  }
 }
 </style>

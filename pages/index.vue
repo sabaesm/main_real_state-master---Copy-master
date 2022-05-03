@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
     <v-app class="main">
       <hed v-bind="HomePage" :data="HomePage"></hed>
       <value></value>
@@ -8,8 +8,6 @@
       <banner v-bind="getContactUsBanner" :data="getContactUsBanner"></banner>
       <new_vila></new_vila>
       <offer></offer>
-      <weblog></weblog>
-      
       <banner v-bind="getContactUsBanner" :data="getContactUsBanner"></banner>
       <favplace></favplace>
          <cons v-bind="getContactUs" :data="getContactUs"></cons>

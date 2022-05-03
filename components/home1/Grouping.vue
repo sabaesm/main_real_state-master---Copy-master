@@ -356,7 +356,7 @@ export default {
 
 .grouping_card {
   width: calc(33.333% - 20px);
-
+transition: all ease-in-out .3s
 }
 p {
   font-weight: 100;
@@ -387,6 +387,7 @@ margin: 0 40px 40px 40px !important;
   justify-content: center;
    border-radius: 18px;
    overflow: hidden;
+   transition: all ease-in-out .3s
 }
 .main img {
   width: 100%;
@@ -396,7 +397,11 @@ margin: 0 40px 40px 40px !important;
 .main:hover{
 filter: drop-shadow(0px 9px 16px rgba(0, 0, 0, 0.19));
 transform: translateY(-10px);
-transition: all ease-in-out .3s
+
+}
+.grouping_card .main:hover .categury_detailes{
+opacity: 1;
+
 }
 .cards {
   display: flex;
