@@ -8,7 +8,7 @@
             <div class="overlay p-0 m-0"></div>
             <!-- Render original HTML in server, render Swiper in browser (client) -->
             <div class="main-banner m-0 p-0">
-              <img :src="data.img" />
+              <img :src="data.banner" />
             </div>
             <v-col cols="5" md="4" lg="3" class="alider_left_items">
               <h4>

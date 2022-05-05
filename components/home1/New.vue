@@ -4,7 +4,7 @@
       <div class="top_section">
         <div>
           <h4>خونتو پیدا کن</h4>
-          <h2>دسته بندی ملک ها</h2>
+          <h2>   جدیدترین ملک ها</h2>
         </div>
         <div class="arrows">
           <div class="see_more d-flex align-center  ">
@@ -91,11 +91,11 @@
       <div v-swiper="swiperOption" class="w-5/6 ml-auto relative custom_swiper_container">
         <div class="swiper-wrapper">
           <ul
-            class="sale__cards d-flex flex-row align-center justify-center swiper-slide ma-0"
+            class="sale__cards d-flex flex-row align-center justify-center swiper-slide ma-0 pa-0"
             v-for="salecard in salecard"
             :key="salecard.id"
           >
-            <li class="ma-0 pa-3 sale__card__items">
+            <li class="ma-0 pa-2  sale__card__items">
               <div class="top_card">
                 <a href="#">
                   <img :src="salecard.img" alt="" />
@@ -261,7 +261,7 @@
                   <span class="sale_date">{{ salecard.date }}</span>
                 </span>
               </div>
-              <div class="bottom_card">
+              <v-col class="bottom_card pa-0 ma-0 " cols="11">
                 <h5 class="sale__desctiptipn py-2">
                   {{ salecard.detaile }}
                 </h5>
@@ -377,7 +377,7 @@
                     </svg>
                   </div>
                 </div>
-              </div>
+              </v-col>
             </li>
           </ul>
         </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="larg_container">
-    <div class="grouping-main-section ">
+    <div class="new_vila__main_section ">
       <h4>  ویلای ساحلی مورد علاقت را  پیدا کن !</h4>
       <h2 >   جدیدترین ویلاهای ساحلی</h2>
        <div class="arrows">
@@ -60,11 +60,11 @@
       <div v-swiper="swiperOption" class="w-5/6 ml-auto relative" :loadtheme="false">
         <div class="swiper-wrapper">
           <ul
-            class="sale__cards d-flex flex-row swiper-slide  mx-0"
+            class="sale__cards d-flex flex-row swiper-slide  "
             v-for="salecard in salecard"
             :key="salecard.id"
           >
-            <li class="ma-0 pa-0 sale__card__items">
+            <li class="sale__card__items">
               <div class="top_card">
                 <a href="#">
                   <img :src="salecard.img" alt="" />
@@ -205,7 +205,7 @@ export default {
     return {
       swiperOption: {
         slidesPerView: 4,
-        spaceBetween: 20,
+        spaceBetween: 200,
         slidesPerGroup: 1,
         freeMode: true,
     		   freeModeMomentum: true,
@@ -222,7 +222,7 @@ export default {
         breakpoints: {
           1024: {
             slidesPerView: 4,
-            spaceBetween: -20,
+            spaceBetween: 200,
           },
           768: {
             slidesPerView: 3,
@@ -243,13 +243,8 @@ export default {
 };
 </script>
 <style scoped>
-.class2 {
-  background-color: blue;
-}
-.hh {
-  background-color: red;
-}
-.grouping-main-section {
+
+.new_vila__main_section {
   box-sizing: border-box;
   position: relative;
   margin: 100px 0;
@@ -334,11 +329,6 @@ margin-bottom: 90px;
   color: #969595;
   font-size: 12px;
 }
-.card_icons {
-  background-color: red;
-  width: 20px;
-}
-
 .prev-button,
 .next-button {
   border-radius: 10px;
@@ -356,27 +346,27 @@ margin-bottom: 90px;
   width: 50px;
   height: 50px;
 }
-</style>
-<style scoped>
+
 .sale__card__items:hover .sale__desctiptipn {
   color: #087cce !important;
 }
-.left__main__card {
-}
+
 .sale__cards {
   display: flex;
   flex-wrap: wrap;
 height:270px;
   justify-content: space-between;
   margin-bottom: 100px;
+
 }
 .sale__cards .sale__card__items {
 
   background-color: #fff;
   border-radius: 10px;
-    width: 330px;
+    min-width: 350px;
+   
   box-shadow: 0px 0px 34px -9px rgba(12, 46, 96, 0.25);
-  margin-bottom: 30px;
+ 
 
 }
 .top_card a {
@@ -390,16 +380,7 @@ height:270px;
   display: block;
 }
 
-.top_card {
-  position: relative;
-  overflow: hidden;
-;
 
-  transition: all ease-in-out 0.3s;
-  
-  width: 100%;
-  height: 175px;
-}
 .top_card img {
   width: 100%;
   height: 100%;
@@ -409,70 +390,14 @@ height:270px;
 .top_card:hover img {
   transform: scale(1.1);
 }
-.top_card .topcard__top__section {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+.top_card {
+  position: relative;
+  overflow: hidden;
+  transition: all ease-in-out 0.3s;
   width: 100%;
+  height: 155px;
 }
-.sale__product {
-  background: #ffa80a;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 20px;
-  letter-spacing: -0.035em;
-  text-align: right;
-  color: #ffff;
-  border-radius: 5px;
-  padding: 10px;
-  transition: all ease-in-out 0.3s !important;
-}
-.salecard_product__text {
-  display: none;
-  transition: all ease-in-out 0.3s !important;
-}
-.sale__product:hover .salecard_product__text {
-  display: inline-block;
-  transition: all ease-in-out 0.3s !important;
-}
-.status {
-  transition: all ease-in-out 0.3s !important;
-}
-.sale__status {
-  background-color: #0a98ff;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 20px;
-  letter-spacing: -0.035em;
-  text-align: right;
-  color: #ffff;
-  border-radius: 5px;
-  padding: 10px;
-}
-.top_card .hover__icon_bottom {
-  position: absolute;
-  right: 10px;
-  left: 10px;
-  bottom: -50%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  transition: all ease-in-out 0.3s;
-  margin-bottom: 20px;
-}
-.top_card:hover .hover__icon_bottom {
-  position: absolute;
-  bottom: 0;
-  transition: all ease-in-out 0.3s;
-  padding-left: 10px;
-}
+
 .sale_date {
   background-color: #fff;
   border-radius: 5px;
@@ -486,19 +411,14 @@ height:270px;
   position: absolute;
   left: 0;
 }
-.counter {
-  background: #101737;
-  color: #fff;
-  border-radius: 5px;
-  font-size: 12px;
-}
+
 .sale__desctiptipn {
 font-size: 14px;
 font-weight: 700;
 line-height: 20px;
 letter-spacing: -0.021em;
 text-align: right;
-  color: #101737;
+  color: #101737!important;
   transition: all ease-in-out 0.3s;
 }
 .home__desctiption {
